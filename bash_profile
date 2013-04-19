@@ -22,8 +22,7 @@ export M2=$M2_HOME/bin
 # export PATH=$GROOVY/bin:$GRADLE:$M2:$PATH
 # export GOROOT=$HOME/go
 # export PATH=$PATH:$GOROOT/bin
-
-#   export PATH=$MAVEN_HOME:$ANT_HOME/bin:$PATH
+# export PATH=$MAVEN_HOME:$ANT_HOME/bin:$PATH
 # export PATH=$GROOVY_HOME/bin:$PATH
 
 HISTSIZE=450
