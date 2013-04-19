@@ -6,8 +6,13 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
+#
 
-set -o vi
+export HISTCONTROL=erasedups
+export HISTSIZE=10000
+shopt -s histappend
+
+# set -o vi
 export PS1="\u@\h \w> "
 
 export GRADLE=/home/jsmith/gradle-1.0/bin
@@ -25,8 +30,6 @@ export M2=$M2_HOME/bin
 # export PATH=$MAVEN_HOME:$ANT_HOME/bin:$PATH
 # export PATH=$GROOVY_HOME/bin:$PATH
 
-HISTSIZE=450
-HISTFILESIZE=450
 
 PATH=$PATH:$HOME/bin:$M2:$HOME/Documents/scripts
 
