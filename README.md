@@ -20,3 +20,7 @@ Now chnage the file rights on makesymlinks.sh
     chmod +x makesymlinks.sh
 
 and now run ./makesymlinks.sh
+
+Now change the remote server to your git repo so can have a backups of your work
+
+  git remote set-url origin ssh://newhost.com/usr/local/gitroot/myproject.git
