@@ -15,14 +15,11 @@ shopt -s histappend
 # set -o vi
 export PS1="\u@\h \w> "
 
-export GRADLE=/home/jsmith/gradle-1.0/bin
-export GROOVY=/home/jsmith/groovy-2.1.0
-export ANT_HOME=/home/jsmith/ant-1.8.3
+# export GRADLE=/home/jsmith/gradle-1.0/bin
+# export GROOVY=/home/jsmith/groovy-2.1.0
+# export ANT_HOME=/home/jsmith/ant-1.8.3
 
 
-export MAVEN_HOME=/home/jsmith/apache-maven-3.0.5
-export M2_HOME=/home/jsmith/apache-maven-3.0.5
-export M2=$M2_HOME/bin
 
 # export PATH=$GROOVY/bin:$GRADLE:$M2:$PATH
 # export GOROOT=$HOME/go
@@ -31,6 +28,6 @@ export M2=$M2_HOME/bin
 # export PATH=$GROOVY_HOME/bin:$PATH
 
 
-PATH=$PATH:$HOME/bin:$M2:$HOME/Documents/scripts
+PATH=$PATH:$HOME/bin:$HOME/Documents/scripts
 
 export PATH
